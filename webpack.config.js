@@ -22,7 +22,8 @@ module.exports = {
     },
     entry: {
         "main/index": "./src/main/index.js",
-        "renderer/app": "./src/renderer/app.jsx"
+        "renderer/app": "./src/renderer/app.jsx",
+        "renderer/captureWindow": "./src/renderer/captureWindow.js"
     },
     output: {
         filename: "dist/[name].js"
